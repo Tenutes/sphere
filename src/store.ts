@@ -20,7 +20,7 @@ export const store = createStore<IRootState>({
   },
   getters: {},
   mutations: {
-    setPageDiabled(state) {
+    setPageDisabled(state) {
       state.isPageDisabled = true;
     },
     setPageEnabled(state) {
